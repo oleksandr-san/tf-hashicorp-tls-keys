@@ -31,7 +31,7 @@ public_key_openssh - The generated public key in OpenSSH format.
 ## Requirements
 This module requires Terraform 0.12 or later, and the following provider:
 
-tls version 4.0.4
+hashicorp/tls version 4.0.4
 
 ## License
 This module is licensed under the MIT License. See the LICENSE file for details.
