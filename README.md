@@ -19,19 +19,19 @@ output "private_key_pem" {
 output "public_key_openssh" {
   value = module.tls_private_key.public_key_openssh
 }
-
+```
 ## Inputs
-algorithm - (Optional) The algorithm to use for the private key. Default is ECDSA.
-ecdsa_curve - (Optional) The curve to use for ECDSA. Default is P256.
+- algorithm - (Optional) The algorithm to use for the private key. Default is ECDSA.
+- ecdsa_curve - (Optional) The curve to use for ECDSA. Default is P256.
 
 ## Outputs
-private_key_pem - The generated private key in PEM format.
-public_key_openssh - The generated public key in OpenSSH format.
+- private_key_pem - The generated private key in PEM format.
+- public_key_openssh - The generated public key in OpenSSH format.
 
 ## Requirements
 This module requires Terraform 0.12 or later, and the following provider:
 
-tls version 4.0.4
+hashicorp/tls version 4.0.4
 
 ## License
 This module is licensed under the MIT License. See the LICENSE file for details.
